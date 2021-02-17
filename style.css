@@ -124,7 +124,6 @@ article h4 {
   padding: 15px 0 0 0;
 }
 
-
 iframe {
   color: #808080;
   font-size: 0.85em;
@@ -172,6 +171,14 @@ article iframe {
   margin: 0 0 1px 0;
   line-height: 1rem;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.popular h3 {
+  margin-top: 20px;
+}
+
+.most-popular h3{
+  margin: 2px 0;
 }
 
 .article-grid p h3 {
@@ -245,12 +252,12 @@ aside figure figcaption {
   font-size: 0.8rem;
   margin-top: 10px;
 }
+
 .recommendation-section {
   max-width: 80%;
   margin: 0 auto;
   clear: both;
 }
-
 
 .recommendation-section hr {
   margin: 50px 0 0;
@@ -260,9 +267,9 @@ aside figure figcaption {
   display: grid;
   gap: 5%;
   grid-template-areas:
-  "more more more popular"
-  "more more more popular"
-  "editor-pick editor-pick editor-pick popular";
+    "more more more popular"
+    "more more more popular"
+    "editor-pick editor-pick editor-pick popular";
 }
 
 .more-in-space {
@@ -283,8 +290,7 @@ aside figure figcaption {
 }
 
 .more-in-space h4,
-.rec-editor-pick h4,
-.most-popular h3 {
+.rec-editor-pick h4 {
   margin: 2% 0;
 }
 
@@ -293,13 +299,14 @@ aside figure figcaption {
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
 }
+
 .article {
   width: 100%;
 }
 
-.article a{
+.article a {
   color: black;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .article figure img {
@@ -313,15 +320,17 @@ aside figure figcaption {
   font-family: sans-serif;
   font-size: 0.85em;
 }
-.popular h3 {
-  margin-top: 20px;
-}
 
 .article p {
   text-align: left;
   color: #999;
   font-family: sans-serif;
   font-size: 0.85em;
+}
+
+.footer-header ul li {
+  list-style-type: none;
+  padding: 3px;
 }
 
 #most-popular li {
@@ -331,6 +340,23 @@ aside figure figcaption {
   margin: 10px 0;
 }
 
+.footer-header a {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px 0;
+  color: black;
+  text-decoration: none;
+}
+
+.footer-base a {
+  margin: 10px 0 0 0;
+  font-size: 11px;
+  font-weight: 200;
+  text-decoration: none;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 #most-popular a {
   font-weight: 100;
   text-transform: capitalize;
@@ -338,10 +364,9 @@ aside figure figcaption {
   color: black;
 }
 
-
 footer {
   width: 95%;
-  margin:100px 0 0 30px;
+  margin: 100px 0 0 30px;
 }
 
 .footer-begin {
@@ -356,11 +381,6 @@ footer {
   margin-top: 10px;
   padding: 0 50px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.footer-header ul li {
-  list-style-type: none;
-  padding: 3px;
 }
 
 .footer-header p {
@@ -383,25 +403,16 @@ footer {
 }
 
 .liner {
-  border-bottom:0.5px solid rgb(240, 237, 237);
-  padding: 0px;
+  border-bottom: 0.5px solid rgb(240, 237, 237);
+  padding: 0;
 }
 
 .footer-base {
-  margin:0 20px 20px 20px;
+  margin: 0 20px 20px 20px;
   padding-bottom: 0;
   border-top: 0.5px solid gray;
   display: flex;
   justify-content: space-between;
-}
-
-.footer-base a {
-  margin: 10px 0 0 0;
-  font-size: 11px;
-  font-weight: 200;
-  text-decoration: none;
-  color: gray;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-big {
