@@ -36,11 +36,6 @@ body {
     margin-right: 20px;
 }
 
-.fab,
-.far {
-    margin: 20px 10px 0 0;
-}
-
 .navbar ul li {
     display: flex;
     justify-content: space-between;
@@ -90,6 +85,15 @@ main figure figcaption {
 main figcaption span {
     color: #808080;
     font-size: 0.85em;
+}
+
+main li {
+    margin: 20px 10px 0 0;
+    list-style-type: none;
+}
+
+main ul {
+    display: flex;
 }
 
 article h4 {
@@ -262,6 +266,11 @@ aside figure figcaption {
     border-top: 0.5px solid gray;
     display: flex;
     justify-content: space-between;
+}
+
+iframe {
+    color: #808080;
+    font-size: 0.85em;
 }
 
 .footer-base li {
