@@ -177,7 +177,7 @@ article iframe {
   margin-top: 20px;
 }
 
-.most-popular h3{
+.most-popular h3 {
   margin: 2px 0;
 }
 
@@ -340,14 +340,6 @@ aside figure figcaption {
   margin: 10px 0;
 }
 
-.footer-header a {
-  font-size: 13px;
-  font-weight: 500;
-  padding: 5px 0;
-  color: black;
-  text-decoration: none;
-}
-
 .footer-base a {
   margin: 10px 0 0 0;
   font-size: 11px;
@@ -355,6 +347,14 @@ aside figure figcaption {
   text-decoration: none;
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-header a {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px 0;
+  color: black;
+  text-decoration: none;
 }
 
 #most-popular a {
@@ -387,14 +387,6 @@ footer {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 10px;
-}
-
-.footer-header a {
-  font-size: 13px;
-  font-weight: 500;
-  padding: 5px 0;
-  color: black;
-  text-decoration: none;
 }
 
 .lining {
