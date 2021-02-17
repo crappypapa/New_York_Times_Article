@@ -22,6 +22,7 @@ body {
     align-items: center;
     border-bottom: 1px solid lightgray;
     overflow: hidden;
+    z-index: 1;
 }
 
 .navbar ul {
@@ -180,7 +181,7 @@ article iframe {
 aside {
     position: absolute;
     right: 120px;
-    top: 1000%;
+    top: 2000px;
     display: flex;
     flex-direction: column;
     width: 150px;
