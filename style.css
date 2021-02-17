@@ -70,7 +70,7 @@ article h4 a {
 .navbar a {
   text-decoration: none;
   color: black;
-  font-weight:500;
+  font-weight: 500;
 }
 
 button {
@@ -218,11 +218,6 @@ article iframe {
   border-radius: 3px;
 }
 
-.caps a {
-  text-transform: capitalize;
-  font-weight: 400;
-}
-
 aside {
   position: absolute;
   right: 120px;
@@ -250,16 +245,109 @@ aside figure figcaption {
   font-size: 0.8rem;
   margin-top: 10px;
 }
+.recommendation-section {
+  max-width: 80%;
+  margin: 0 auto;
+  clear: both;
+}
+
+
+.recommendation-section hr {
+  margin: 50px 0 0;
+}
+
+.recommendation-area {
+  display: grid;
+  gap: 5%;
+  grid-template-areas:
+  "more more more popular"
+  "more more more popular"
+  "editor-pick editor-pick editor-pick popular";
+}
+
+.more-in-space {
+  grid-area: more;
+}
+
+.popular {
+  grid-area: popular;
+}
+
+.popular hr {
+  margin: 50px 0 0;
+}
+
+.rec-editor-pick {
+  grid-area: editor-pick;
+  margin-top: -15%;
+}
+
+.more-in-space h4,
+.rec-editor-pick h4,
+.most-popular h3 {
+  margin: 2% 0;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.article {
+  width: 100%;
+}
+
+.article a{
+  color: black;
+  text-decoration: none
+}
+
+.article figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.article figure figcaption {
+  text-align: right;
+  color: #999;
+  font-family: sans-serif;
+  font-size: 0.85em;
+}
+.popular h3 {
+  margin-top: 20px;
+}
+
+.article p {
+  text-align: left;
+  color: #999;
+  font-family: sans-serif;
+  font-size: 0.85em;
+}
+
+#most-popular li {
+  line-height: 29px;
+  list-style: none;
+  border-top: 1px solid rgb(167, 166, 166);
+  margin: 10px 0;
+}
+
+#most-popular a {
+  font-weight: 100;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+}
+
 
 footer {
   width: 95%;
-  margin:10px 0 0 30px ;
-
+  margin:100px 0 0 30px;
 }
+
 .footer-begin {
   border-top: 4px double rgb(201, 201, 201);
   padding: 20px 0;
-  width:95%;
+  width: 95%;
 }
 
 .footer-container {
@@ -289,26 +377,26 @@ footer {
   text-decoration: none;
 }
 
-.lining{
-  border-left:1px solid rgb(240, 237, 237);
-  padding:5px;
+.lining {
+  border-left: 1px solid rgb(240, 237, 237);
+  padding: 5px;
 }
 
-.liner{
-   border-bottom:0.5px solid rgb(240, 237, 237);
-  padding:0px;
+.liner {
+  border-bottom:0.5px solid rgb(240, 237, 237);
+  padding: 0px;
 }
 
 .footer-base {
-  margin: 20px;
-  padding-bottom: 40px;
+  margin:0 20px 20px 20px;
+  padding-bottom: 0;
   border-top: 0.5px solid gray;
   display: flex;
   justify-content: space-between;
 }
 
 .footer-base a {
-  margin:10px 0 0 0;
+  margin: 10px 0 0 0;
   font-size: 11px;
   font-weight: 200;
   text-decoration: none;
@@ -321,8 +409,8 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  margin-top:10px;
-  margin-bottom:2px;
+  margin-top: 10px;
+  margin-bottom: 2px;
   border-top: 1px solid gray;
   min-width: 100%;
   height: 4%;
