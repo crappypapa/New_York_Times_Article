@@ -11,7 +11,7 @@ A clone of a NYT article page
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://crappypapa.github.io/New_York_Times_Article/)
 
 ## Authors
 

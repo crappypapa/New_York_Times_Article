@@ -216,6 +216,10 @@ aside figure figcaption {
     font-size: 0.6rem
 }
 
+.date {
+    font-size: 0.6rem;
+}
+
 .editor div {
     font-size: 0.8rem;
     margin-top: 10px;
