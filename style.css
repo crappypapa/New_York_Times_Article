@@ -55,6 +55,11 @@ main li {
   display: flex;
   justify-content: space-between;
 }
+.navbar a{
+  text-decoration: none;
+  color:black;
+  font-weight:500;
+}
 
 button {
   color: white;
