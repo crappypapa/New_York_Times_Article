@@ -111,7 +111,7 @@ aside a {
   margin-top: 10px;
   color: black;
   text-decoration: none;
-  font-size: 0.9rem
+  font-size: 0.9rem;
 }
 
 article h4 a {
@@ -143,7 +143,7 @@ article iframe {
 
 .unlock hr {
   width: 20%;
-  margin: auto;     
+  margin: auto;
 }
 
 .unlock a {
@@ -232,7 +232,7 @@ aside h4 {
 }
 
 aside figure figcaption {
-  font-size: 0.6rem
+  font-size: 0.6rem;
 }
 
 .date {
