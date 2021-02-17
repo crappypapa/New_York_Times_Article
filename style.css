@@ -187,6 +187,35 @@ article iframe {
     margin: 20px 0;
 }
 
+.logo img {
+    padding: 0 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 50px
+}
+
+.footer-header ul li {
+    list-style-type: none;
+}
+
+.footer-header p {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-header a {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 0;
+    color: black;
+    text-decoration: none;
+}
+
 .footer-base {
     margin: 20px;
     padding-bottom: 40px;
