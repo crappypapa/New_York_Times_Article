@@ -88,7 +88,7 @@ button:hover {
 main {
   margin: auto;
   width: 50%;
-  padding-top: 4rem;
+  padding-top: 8rem;
 }
 
 main h1 {
@@ -426,6 +426,7 @@ footer {
 .footer-big p {
   margin: 10px 0 0;
   font-family: Arial, Helvetica, sans-serif;
+  bottom: 0;
 }
 
 .expand {
