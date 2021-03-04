@@ -1,6 +1,7 @@
 # New_York_Times_Article
 
-A clone of a NYT article page
+A clone of a NYT article page using just HTML and CSS
+Note: It wasn't built to be responsive
 
 ![screenshot](./New_York_Times.png)
 
